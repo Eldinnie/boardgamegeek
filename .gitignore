@@ -13,4 +13,4 @@ dist
 .coverage
 coverage.xml
 .tox
-.sqlite
+NULL.sqlite
