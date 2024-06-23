@@ -12,7 +12,10 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r requirements/develop.txt"
+	"postCreateCommand": "pip3 install --user -r requirements/develop.txt",
+	"features": {
+		"ghcr.io/prulloac/devcontainer-features/pre-commit:1": {}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
